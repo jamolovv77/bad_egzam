@@ -1,0 +1,41 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library System</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+
+<body>
+
+<nav class="q">
+    <h1>my library 📚</h1>
+
+    <div class="b">
+        <a href="/">home</a>
+        <a href="/books/">books</a>
+        <a href="/members/">members</a>
+        <a href="/transactions/">transactions</a>
+    </div>
+</nav>
+
+<div class="w">
+
+    <h1>welcome to my library</h1>
+    <p>world of books</p>
+
+    <img class="e"
+         src="https://images.unsplash.com/photo-1507842217343-583bb7270b66"
+         alt="Library">
+
+    <div class="r">
+        <a href="/add-autor/" class="t">add autor</a>
+        <a href="{% url 'get_books' %}" class="y">add book</a>
+    </div>
+
+</div>
+
+</body>
+</html>

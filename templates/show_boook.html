@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Books</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📚 Saved Books</h1>
+
+    {% for book in books %}
+
+        <div class="book-card">
+          
+            {% if book.image %}
+    <img src="{{ book.image.url }}" width="180">
+{% endif %}
+
+            <h2>{{ book.name }}</h2>
+
+            <p>Author: {{ book.author.name }}</p>
+
+            <p>Category: {{ book.category }}</p>
+
+        </div>
+
+    {% empty %}
+
+        <p>no book</p>
+
+    {% endfor %}
+
+    <a href="{% url 'add_books' %}" class="back">
+         add another book
+    </a>
+
+</div>
+
+</body>
+</html>

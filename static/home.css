@@ -1,0 +1,347 @@
+
+body {
+    font-family: Arial,sans-serif;
+    background: #f1f5f9;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+.wer {
+    background: rgb(226, 217, 217);
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+
+
+
+
+input, select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+
+button:hover {
+    background: #1d4ed8;
+}
+
+
+
+
+
+.back {
+    display: inline-block;
+    background: #64748b;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+.back:hover {
+    background: #334155;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #c6cdd4;
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+
+form {
+    background: white;
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px #0002;
+}
+
+
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+
+
+button, .back-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #2563eb;
+    color: white;
+    border-radius: 11px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+
+.back-btn {
+    background: #64748b;
+}
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Segoe UI',sans-serif;
+    background: linear-gradient(135deg, #f5eee6, #e8d5c4);
+    min-height: 100vh;
+}
+
+
+
+
+
+
+.q {
+    background: #38251d;
+    padding: 22px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 15px #0003;
+}
+
+
+
+
+.q h2 {
+    color: #f5d6a5;
+    font-size: 27px;
+}
+
+
+
+
+.b {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+.b a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+
+
+
+.b a:hover {
+    color: #e9b96e;
+}
+
+
+
+
+
+
+.w {
+    text-align: center;
+    padding: 55px 20px;
+}
+
+
+
+
+
+.w h1 {
+    color: #38251d;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+.w p {
+    color: #8b634b;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.e {
+    width: 75%;
+    max-width: 850px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px #0003;
+    transition: 0.4s;
+}
+
+
+
+
+
+.e:hover {
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+
+.r {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+.t {
+    padding: 14px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+
+
+
+.y {
+        padding: 14px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+.t {
+    background: #38251d;
+    color: white;
+}
+
+
+
+
+
+.y {
+    background: #c58b45;
+    color: white;
+}
+
+
+
+
+
+.t:hover{
+ 
+    box-shadow: 0px 7px 15px #0003;
+}
+
+
+
+
+
+.y:hover {
+    
+    box-shadow: 0px 7px 15px #0003;
+}
+
+
+
+
+.b {
+    display: inline-block;
+    padding: 13px 30px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.b:hover {
+    transform: translateY(-4px);
+    background: linear-gradient(135deg, #764ba2, #667eea);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
